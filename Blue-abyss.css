@@ -5,24 +5,15 @@
    ================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/* MAIN BACKGROUND */
 
-/* BACKGROUND */
-
-body {
+html, body {
     background-color: #061426 !important;
-    background-image:
-    linear-gradient(
-        rgba(3, 13, 28, 0.72),
-        rgba(3, 13, 28, 0.88)
-    ),
-    url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1920&q=85") !important;
-
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1920&q=85") !important;
+    background-position: center center !important;
     background-size: cover !important;
-    background-repeat: no-repeat;
-    color: #DCEEFF !important;
-    font-family: 'Montserrat', Arial, sans-serif !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
 /* MAIN CONTAINERS */
