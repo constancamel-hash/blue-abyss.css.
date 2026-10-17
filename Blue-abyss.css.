@@ -1,0 +1,178 @@
+
+/* =================================
+   BLUE ABYSS
+   LIODEN TERRITORY CSS
+   ================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* BACKGROUND */
+
+body {
+    background-color: #061426 !important;
+    background-image:
+    linear-gradient(
+        rgba(3, 13, 28, 0.72),
+        rgba(3, 13, 28, 0.88)
+    ),
+    url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1920&q=85") !important;
+
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    color: #DCEEFF !important;
+    font-family: 'Montserrat', Arial, sans-serif !important;
+}
+
+/* MAIN CONTAINERS */
+
+#main,
+#container,
+.container {
+    background-color: rgba(6, 20, 38, 0.92) !important;
+    color: #DCEEFF !important;
+}
+
+/* NAVIGATION */
+
+.navbar,
+.navbar-default,
+#header,
+#sidebar {
+    background-color: #081A30 !important;
+    border-color: #397DB5 !important;
+}
+
+.navbar a,
+#sidebar a {
+    color: #C5E5FA !important;
+}
+
+.navbar a:hover,
+#sidebar a:hover {
+    color: white !important;
+    text-shadow: 0 0 8px #63B8FF;
+}
+
+/* PANELS */
+
+.panel,
+.panel-default,
+.well,
+.feature {
+    background-color: rgba(13, 38, 65, 0.94) !important;
+    color: #DCEEFF !important;
+    border: 1px solid #397DB5 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.panel-heading,
+.panel-title {
+    background: linear-gradient(
+        90deg,
+        #102D50,
+        #245783
+    ) !important;
+
+    color: #FFFFFF !important;
+    border-color: #5797CA !important;
+}
+
+/* TABLES */
+
+table {
+    background-color: rgba(8, 26, 48, 0.94) !important;
+    color: #DCEEFF !important;
+    border-color: #315B80 !important;
+}
+
+td, th {
+    border-color: #315B80 !important;
+}
+
+th {
+    background-color: #173B60 !important;
+    color: #FFFFFF !important;
+}
+
+tr:hover {
+    background-color: rgba(57, 125, 181, 0.15) !important;
+}
+
+/* TEXT */
+
+h1, h2, h3, h4, h5 {
+    color: #E6F5FF !important;
+    font-family: 'Montserrat', Arial, sans-serif !important;
+    text-shadow: 0 0 10px rgba(57, 125, 181, 0.4);
+}
+
+/* LINKS */
+
+a {
+    color: #83C8FF !important;
+    transition: 0.25s ease;
+}
+
+a:hover {
+    color: #FFFFFF !important;
+    text-shadow: 0 0 8px #397DB5;
+    text-decoration: none !important;
+}
+
+/* KING */
+
+#lion_image {
+    border: 2px solid #5797CA;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(57, 125, 181, 0.35);
+}
+
+/* BUTTONS */
+
+.btn,
+button {
+    background: #173B60 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #5797CA !important;
+    border-radius: 5px !important;
+}
+
+.btn:hover,
+button:hover {
+    background: #397DB5 !important;
+}
+
+/* IMAGES */
+
+img {
+    border-color: #397DB5;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #061426;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #245783;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5797CA;
+}
+
+/* SELECTION */
+
+::selection {
+    background: #397DB5;
+    color: white;
+}
